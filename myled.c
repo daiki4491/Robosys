@@ -26,11 +26,11 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 	if(c == '0'){
 		gpio_base[10] = 1 << 25;
 	}else if(c == '1'){
-		gpio_base[10] = 1 << 26;
+		gpio_base[10] = 1 << 24;
 	}else if(c == '2'){
 		gpio_base[7] = 1 << 25;
 	}else if(c == '3'){
-		gpio_base[7] = 1 << 26;
+		gpio_base[7] = 1 << 24;
 	}
 
 	return 1;
@@ -83,13 +83,13 @@ static int __init init_mod(void)
 
 	gpio_base = ioremap_nocache(0xfe200000, 0xA0);
 
-	const u32 led1 = 25;
+	const u32 led1 = 24;
 	const u32 index1 = led1/10;
 	const u32 shift1 = (led1%10)*3;
 	const u32 mask1 = ~(0x7 << shift1);
 	gpio_base[index1] = (gpio_base[index1] & mask1 ) | (0x1 << shift1);
 
-	const u32 led2 = 26;
+	const u32 led2 = 25;
 	const u32 index2 = led2/10;
 	const u32 shift2 = (led2%10)*3;
 	const u32 mask2 = ~(0x7 << shift2);
