@@ -4,7 +4,7 @@
 
 # 今回の課題にあたって
 
-　今回の課題にあたって、
+　今回の課題にあたって、多くのお時間を取ってしまい申し訳ありませんでした。上田先生にはとてもお世話になりました。無事に、課題１を終わることが出来ました。
 
 
 # 概要
@@ -25,7 +25,7 @@
   
   ・ブレッドボード
   
-  ・LED（赤/黄）*2
+  ・LED（赤/青）*2
   
   ・抵抗(200Ω)*2
   
@@ -37,7 +37,7 @@
  　今回作成した回路は、以下のように回路を組みました。
   
   <img src=
-  "https://user-images.githubusercontent.com/96305606/146736978-be1998fc-2739-4b6f-ad2d-b396fbb6202f.jpg" widrh= "320px">
+  "https://user-images.githubusercontent.com/96305606/146777438-4477ee2b-ea87-4a1f-b915-77e56a232713.jpg" widrh= "320px">
   
   
   # インストール・ビルド・アンインストール方法
@@ -80,12 +80,12 @@
   
   　以下のリンクからyoutubeの動画がご覧出来ます。
     
-    https://youtu.be/P4NYrSSYEhY
+    https://youtu.be/UUhhh9_pL-A
     
     
+   # ライセンス
     
-    
-    
+    GNU General Pnblic License v3.0
     
     
     
