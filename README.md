@@ -46,7 +46,7 @@
    
    ・インストール手順
    
-   　$ git clone https://github.com/daiki4491/Robosys.git
+     $ git clone https://github.com/daiki4491/Robosys.git
     
      $ cd Robosys
      
